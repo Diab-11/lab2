@@ -1,8 +1,7 @@
-//
-//  Question.swift
-//  lab2
-//
-//  Created by Zkaria Diab on 2026-03-09.
-//
-
 import Foundation
+
+struct Question {
+    let text: String
+    let options: [String]
+    let correctAnswer: String
+}
